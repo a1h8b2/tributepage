@@ -1,0 +1,77 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{ 
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+
+}
+.header{
+    padding: 2rem;
+    margin:1rem 0px;
+    text-align: center;
+
+}
+.header > .title {
+    margin-bottom: 1rem;
+
+}
+.tribute {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+.tribute blockquote {
+    text-align: center;
+    font-size: 3rem;
+}
+.tribute img{
+    max-width: 100%;
+}
+.bio {
+    padding: 5rem;
+    max-width: 60rem;
+    margin: 2rem auto;
+}
+ h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+ p {
+    line-height: 30px;
+    font-size: 18px;
+}
+.writings {
+    padding: 3rem;
+    max-width: 60rem;
+    margin:1rem auto;
+    
+    }
+
+.awards{
+    padding: 3rem;
+        max-width: 60rem;
+        margin: 1rem auto;
+}
+footer {
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 1rem 0 0;
+
+}
+
